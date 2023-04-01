@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: nginx-deployment
-        image: my-nginx-image:latest
+        image: nikitavpail/nginx:latest
         ports:
         - containerPort: 80
 
